@@ -1,0 +1,317 @@
+#-------------------------------
+# General Site Settings
+
+title: Sufinsha
+logo:
+author: sufinsha
+description: welcome to sufinsha's website
+email:
+phone:
+address:
+copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+
+menu:
+- {name: About, link: '/about'}
+- {name: Blog, link: '/blog'}
+- {name: Portfolio, link: '/portfolio'}
+- {name: Contact, link: '/contact'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I’m <br> Sufinsha <br> Web Architect
+
+social:
+- {icon: "ti-github", link: "#"}
+- {icon: "ti-linkedin", link: "#"}
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  I'm an enthusiastic software professional who 'Engineer' great applications. I rather not build things in web, but I 'Engineer' it. I bring more than 8 years of experience in building scalable and cost effective web applications for various clients across the globe. I am also an experienced Cloud Architect and Big Data Engineer.
+
+blurb-btn-link: '/portfolio'
+blurb-btn-name: More About Me
+
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# My Team Section
+team:
+  - title : "Jack Schenziwe"
+    image : "assets/images/team/member-1.png"
+    designation : "Project Manager"
+
+  - title : "Julias Carlie"
+    image : "assets/images/team/member-2.png"
+    designation : "Web Developer"
+
+  - title : "John Doe"
+    image : "assets/images/team/member-3.png"
+    designation : "Designer"
+
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+- {name: Web Design, color: '#fdb157', value: '90%'}
+- {name: Logo Design, color: '#9473e6', value: '60%'}
+- {name: After Effects, color: '#bdecf6', value: '80%'}
+- {name: Web App, color: '#ffbcaa', value: '70%'}
+
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
+- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
+- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+- { name: B.Tech in Computer Science And Engineering, date: '2012', organization: 'College Of Engineering, Thiruvananthapuram' }
+
+
+
+#-------------------------------
+# Services Section
+
+services-title: Services
+services:
+- {
+    name: UI/UX Design,
+    icon: ti-palette,
+    description: "We have a team of experienced UI engineers who builds aesthetical web/mobile application UI's with great user experience.",
+    active: # Add true to select section
+  }
+- {
+    name: Web Applications,
+    icon: ti-vector,
+    description: 'We are a team of engineers experienced in building scalable, maintainable and cost effective solutions for the client needs.',
+    active: true
+  }
+- {
+    name: Big Data Pipelines,
+    icon: ti-panel,
+    description: 'Our team is experienced in building Big Data Pipelines that process millions of records per day.',
+    active: # Add true to select section
+  }
+- {
+    name: Data Streaming Pipelines,
+    icon: ti-panel,
+    description: 'Our team is experienced in building Data Streaming Pipelines that receives millions of data per day.',
+    active: # Add true to select section
+  }
+- {
+    name: Cloud Services,
+    icon: ti-panel,
+    description: 'We have a well experienced Devops team to setup, deploy and maintain applications cost effectively. Our team have multi cloud expertise.',
+    active: # Add true to select section
+  }
+- {
+    name: System Architecture,
+    icon: ti-panel,
+    description: 'We are a team of well experienced engineers who design, build and review great applications.',
+    active: # Add true to select section
+  }
+
+
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+
+  - image : "assets/images/portfolio/item-4.png"
+    url: "#"
+
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+
+
+# Portfolio Page
+portfolio-label:
+- {
+    title : "UI/UX Design",
+    type : "design"
+  }
+- {
+    title : "BRANDING",
+    type : "branding"
+  }
+- {
+    title : "ILLUSTRATION",
+    type : "illustration"
+  }
+
+portfolio-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+     - type: "design"
+     - type: "illustration"
+
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image : "assets/images/portfolio/item-6.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-8.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "illustration"
+      - type: "branding"
+
+  - image : "assets/images/portfolio/item-7.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Gabriel Martinez"
+    image: "assets/images/testimonial/client-1.png"
+    designation : "CTO @ pixind"
+    content : "I've the privilege to know Sufin for the past two years, while working together in a fully outsourced project. He always have a neat solution for every problem you can possibly while writing complex pieces of software, coming from his deep understanding on how modern technologies work.<br /> <br />Meticulous, proactive and organised, always with the goal of achieving the best result in the right time, He is no doubt who you would like to have by your side, if your goal is to develop top-level software with an open mind.<br /> <br />I put him on the highest possible tier of recommendations, he is surely one of the finest engineers I've had the pleasure to work with in many time, I would definitely enjoy working with him again."
+
+  - name: "Torsten Koheler"
+    image: "assets/images/testimonial/client-1.png"
+    designation : "Principal Software Architect at Echo360"
+    content : "Sufin has has been instrumental in developing and improving a Learning Management System for our firm over the past 5 years. Sufin is extremely reliable and professional. During a critical project phase, Sufin coordinated efforts with developers from an external team and provided stability to the project. He is an expert in Ruby on Rails and software development in general.  I highly recommend Sufin and I very much appreciate his expertise and leadership that he provided."
+
+  - name: "Sangam Gupta"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "Module Lead at MothersonSumi INfotech & Designs Ltd. (MIND)"
+    content: "Sufinsha is proactive, result oriented and technically sound team member and he is always ready to put all his energy and time to get the job done. He is an exceptional programmer and has great analytical skills. <br /> <br />
+             Sufinsha is very passionate and has great vision for his work. His focus keeps everything moving smoothly, he makes sure all the deadlines are met. Therefore I certainly can get my full recommendation. <br /> <br />
+             Sufinsha is a great asset for any organisation. I wish him good luck for his future endeavours."
+
+  - name: "Mohammed Rafi"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "Asia's Leading Behavioral Change Specialist || Business Growth Strategist || Top Rated NLP Trainer India|| Edupreneur"
+    content: "Sufinsha has always portrayed great enthusiasm and a willingness to learn. He was a quick learner and I have seen him perform from close angles during the 3 month training period, where it was my pleasure to have mentored him. <br /> <br />
+             I wish him all success in his future endeavors. He is a budding talent with sheer passion who can reach great heights in the IT industry. Moreover Sufin has got a great heart"
+
+
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: steve.fruits@email.com
